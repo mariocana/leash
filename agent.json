@@ -1,0 +1,19 @@
+{
+  "type": "https://eips.ethereum.org/EIPS/eip-8004#registration-v1",
+  "name": "leash",
+  "description": "On-chain spending guardrails for autonomous agents. Capped, revocable, expiring allowances enforced by a contract instead of a prompt.",
+  "image": "https://raw.githubusercontent.com/mariocana/leash/main/assets/leash.png",
+  "active": true,
+  "services": [
+    {
+      "type": "mcp",
+      "url": "https://github.com/mariocana/leash"
+    }
+  ],
+  "registrations": [
+    {
+      "agentId": 0,
+      "agentRegistry": "eip155:42220:0x8004A169FB4a3325136EB29fA0ceB6D2e539a432"
+    }
+  ]
+}
